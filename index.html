@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="">
+        <div class="form-login text-2xl w-10/12 mx-auto h-screen flex flex-col justify-center items-center gap-y-4">
+
+            <h1 class="text-center text-5xl">Login</h1>
+
+            <form class="grid gap-y-2 w-full" >
+
+                <div class="flex flex-col">
+                    <label for="input-email">Email:</label>
+                    <input type="email" id="input-email" name="input-email" class="border-2 rounded py-2 px-0.5">
+                </div>
+
+                <div class="flex flex-col">
+                    <label for="input-password">Senha:</label>
+                    <input type="password" id="input-password" name="input-password" class="border-2 rounded py-2 px-0.5">
+                </div>
+
+                <button type="submit" class="rounded py-2 px-0.5 mt-8 bg-slate-400 text-white">Entrar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
